@@ -1,0 +1,97 @@
+
+
+@font-face {
+    font-family: mera;
+    src: url(/HeadingNowTrial-18Heavy.ttf);
+}
+
+@font-face {
+    font-family: halka;
+    src: url(/HeadingNowTrial-23Book.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Madimi+One&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    box-sizing: border-box;
+    background-color: #000;
+    /* overflow-x: hidden; */
+}
+#navbar{
+    max-width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    background: #000;
+}
+
+#logo{
+    color: rgb(255, 255, 255);
+    /* font-family: mera; */
+    font-size: 3vw;
+    font-stretch: 670%;
+    width: 30%;
+    letter-spacing: .5vw;
+    font-family: halka;
+    font-weight: 500;
+    text-transform: uppercase;
+ 
+}
+#page1{
+    /* height: 100vh; */
+    overflow-x: hidden;
+}
+
+.navitem{
+    min-width: 20%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20%; */
+    /* background-color: blue; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+
+#hero_h1{
+  color: #fff;
+  font-size: 40vw;
+  letter-spacing:1px;
+  text-transform: uppercase;
+  font-family: "Madimi One", sans-serif;
+  /* font-family: mera; */
+  width: 200vw;
+  white-space: nowrap;
+  font-stretch: 350%;
+  font-weight: 999;
+
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(243, 15, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

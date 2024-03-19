@@ -92,6 +92,21 @@ html, body{
     width: 100vw;
     background-color: rgb(243, 15, 213);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center; 
+}
+#page3_h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 3% 5%;
+    transform: rotate(20deg);
+    transform: translateX(100%);
+    transform: translateX(200%);
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(201, 76, 76);
 }

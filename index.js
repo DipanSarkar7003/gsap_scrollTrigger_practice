@@ -23,6 +23,7 @@ gsap.to("#hero_h1",{
 gsap.to("#page2 " , {
     backgroundColor:"black",
     color:"white",
+    fontSize:30,
     scrollTrigger:{
         trigger:"#page2",
         scroller:"body",
@@ -42,3 +43,21 @@ duration :2
 
 
 }) 
+
+gsap.to("#page3_h1 " , {
+    backgroundColor:"black",
+    color:"white",
+    transform:"rotate(20deg)",
+    transform:"translateX(-150%)",
+    transform:"translateY(-100%)",
+    scrollTrigger:{
+        trigger:"#page3",
+        scroller:"body" ,
+        scrub:2,
+        markers:true,
+        // start:"top 20%",
+        pin:"#page3"
+
+    }
+
+})
